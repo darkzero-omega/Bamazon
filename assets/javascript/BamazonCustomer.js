@@ -29,7 +29,7 @@ connection.query('SELECT * FROM products', function (err, rows) {
             //---Log all the items for sale in the console--//
             for (var i = 0; < rows.length; i++) {
 
-                console.log("Item ID:" + rows[i].ItemID + rows[i].ProductName + "Price $" + rows[i].Price);
+                console.log("Item ID:" + rows[i].ItemID + rows[i].product_name + "Price $" + rows[i].Price);
             };
 
             var schema = {
